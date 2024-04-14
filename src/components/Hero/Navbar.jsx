@@ -21,17 +21,17 @@ function Navbar() {
     return (
         <>
             <nav className="container flex items-center justify-between py-4">
-                <a href="#"><img src="src/assets/icon.png" alt="logo" className="h-20 md:h-20 sm:h-16" /></a>
+                <a href="#"><img src="src/assets/icon.png" alt="logo" className="h-20 md:h-20 md:h-16" /></a>
 
 
-                <div className="sm:hidden ">
+                <div className="md:hidden ">
                     <button onClick={toggleNavbar} className="text-black focus:outline-none">
                         <box-icon name={showNavbar ? 'x' : 'menu-alt-right'} color='#ffffff'></box-icon>
                     </button>
                 </div>
 
 
-                <div className="hidden sm:flex items-center gap-10">
+                <div className="hidden md:flex items-center gap-10">
                     {Tabs.map((tab) => (
                         <a key={tab.id} href={`#${tab.id}`} className="text-sm hover:scale-125 ease-in duration-300">
                             {tab.name}
@@ -42,7 +42,7 @@ function Navbar() {
 
                 <button
                     onClick={openResume}
-                    className="hidden sm:block text-sm border border-white hover:bg-white hover:text-black rounded-md w-24 h-9 hover:scale-105 ease-in duration-300"
+                    className="hidden md:block text-sm border border-white hover:bg-white hover:text-black rounded-md w-24 h-9 hover:scale-105 ease-in duration-300"
                 >
                     Resume
                 </button>

@@ -22,9 +22,8 @@ body {
 
 .line {
   width: 24em;
-  top: 50%;
   margin: auto;
-  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  border-right: 4px solid rgba(255, 255, 255, 0.75);
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
@@ -43,7 +42,7 @@ body {
   }
 
   to {
-    width: 23em;
+    width: 14em;
   }
 }
 
@@ -54,8 +53,8 @@ body {
     }
 
     to {
-      width: 23em;
-      font-size: 15px;
+      width: 14em;
+      font-size: 20px;
     }
   }
 }
