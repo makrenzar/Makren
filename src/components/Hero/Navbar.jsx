@@ -1,27 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 function Navbar() {
-
     const Tabs = [
-
-        {
-            id: "skills",
-            name: "skills",
-        },
-        {
-            id: "works",
-            name: "works",
-        },
-
-        {
-            id: "experience",
-            name: "experience",
-        },
-        {
-            id: "contact",
-            name: "contact",
-        },
+        { id: "skills", name: "#skills" },
+        { id: "works", name: "#works" },
+        { id: "experience", name: "#experience" },
+        { id: "contact", name: "#contact" },
     ];
+
+    const [showNavbar, setShowNavbar] = useState(false);
+
+    const toggleNavbar = () => {
+        setShowNavbar(!showNavbar);
+    };
 
     const openResume = () => {
         window.open('src/assets/resume.pdf', '_blank');
@@ -29,23 +20,63 @@ function Navbar() {
 
     return (
         <>
-            <nav className="container flex items-center justify-between md:py-4">
-                <a href="#"><img src="src/assets/icon.png" alt="logo" className="h-20" /></a>
-                <ul className="flex space-x-4">
-                    {Tabs.map(tab => (
-                        <li key={tab.id}>
-                            #<a href={`#${tab.id}`} className=" text-sm">{tab.name}</a>
-                        </li>
+            <nav className="container flex items-center justify-between py-4">
+                <a href="#"><img src="src/assets/icon.png" alt="logo" className="h-20 md:h-20 sm:h-16" /></a>
+
+
+                <div className="sm:hidden ">
+                    <button onClick={toggleNavbar} className="text-black focus:outline-none">
+                        <box-icon name={showNavbar ? 'x' : 'menu-alt-right'} color='#ffffff'></box-icon>
+                    </button>
+                </div>
+
+
+                <div className="hidden sm:flex items-center gap-10">
+                    {Tabs.map((tab) => (
+                        <a key={tab.id} href={`#${tab.id}`} className="text-sm hover:scale-125 ease-in duration-300">
+                            {tab.name}
+                        </a>
                     ))}
-
-                </ul>
-
-                <button onClick={openResume} className="text-sm border border-white  rounded-md w-24 h-9">Resume</button>
+                </div>
 
 
-            </nav >
+                <button
+                    onClick={openResume}
+                    className="hidden sm:block text-sm border border-white hover:bg-white hover:text-black rounded-md w-24 h-9 hover:scale-105 ease-in duration-300"
+                >
+                    Resume
+                </button>
+            </nav>
+
+
+            <div
+                className={`md:hidden absolute top-20 left-0 w-full   rounded-md z-10  ${showNavbar ? 'block' : 'hidden'
+                    }`}
+            >
+                <div className="flex flex-col items-center py-4 gap-4">
+                    {Tabs.map((tab) => (
+                        <a
+                            key={tab.id}
+                            href={`#${tab.id}`}
+                            className="text-sm"
+                            onClick={toggleNavbar}
+                        >
+                            {tab.name}
+                        </a>
+                    ))}
+                    <button
+                        onClick={() => {
+                            openResume();
+                            toggleNavbar();
+                        }}
+                        className="text-sm w-24 h-9"
+                    >
+                        Resume
+                    </button>
+                </div>
+            </div>
         </>
-    )
+    );
 }
 
 export default Navbar;
