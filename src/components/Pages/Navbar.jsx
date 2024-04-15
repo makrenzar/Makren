@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 
 function Navbar() {
     const Tabs = [
-        { id: "skills", name: "#skills" },
-        { id: "works", name: "#works" },
+        { id: "home", name: "#home" },
+        { id: "projects", name: "#projects" },
         { id: "experience", name: "#experience" },
         { id: "contact", name: "#contact" },
     ];
@@ -21,7 +21,7 @@ function Navbar() {
     return (
         <>
             <nav className="container flex items-center justify-between py-4">
-                <a href="#"><img src="src/assets/icon.png" alt="logo" className="h-20 md:h-20 md:h-16" /></a>
+                <a href="#"><img src="src/assets/icon.png" alt="logo" className="h-20  md:h-16" /></a>
 
 
                 <div className="md:hidden ">
@@ -33,7 +33,7 @@ function Navbar() {
 
                 <div className="hidden md:flex items-center gap-10">
                     {Tabs.map((tab) => (
-                        <a key={tab.id} href={`#${tab.id}`} className="text-sm hover:scale-125 ease-in duration-300">
+                        <a key={tab.id} href={`#${tab.id}`} className="text-sm hover:scale-125 ease-in duration-200">
                             {tab.name}
                         </a>
                     ))}
@@ -42,9 +42,9 @@ function Navbar() {
 
                 <button
                     onClick={openResume}
-                    className="hidden md:block text-sm border border-white hover:bg-white hover:text-black rounded-md w-24 h-9 hover:scale-105 ease-in duration-300"
+                    className="hidden md:block text-sm border border-white hover:bg-white hover:text-black rounded-md w-24 h-9 hover:scale-105 ease-in duration-200"
                 >
-                    Resume
+                    #resume
                 </button>
             </nav>
 
@@ -53,7 +53,7 @@ function Navbar() {
                 className={`md:hidden absolute top-20 left-0 w-full   rounded-md z-10  ${showNavbar ? 'block' : 'hidden'
                     }`}
             >
-                <div className="flex flex-col items-center py-4 gap-4">
+                <div className="flex flex-col items-center py-4 gap-4 bg-black top-0">
                     {Tabs.map((tab) => (
                         <a
                             key={tab.id}
@@ -71,7 +71,7 @@ function Navbar() {
                         }}
                         className="text-sm w-24 h-9"
                     >
-                        Resume
+                        #resume
                     </button>
                 </div>
             </div>
