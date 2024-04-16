@@ -4,6 +4,7 @@ import HeroSection from "./components/Pages/HeroSerction";
 import Projects from "./components/Pages/Projects";
 import Experience from "./components/Pages/Experience";
 import Footer from "./components/Pages/Footer";
+import Contact from "./components/Pages/Contact";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <HeroSection></HeroSection>
           <Projects></Projects>
           <Experience></Experience>
+          <Contact></Contact>
           <Footer></Footer>
         </div>
       </div>

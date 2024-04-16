@@ -5,14 +5,8 @@ function Navbar() {
     { id: "home", name: "#home" },
     { id: "projects", name: "#projects" },
     { id: "experience", name: "#experience" },
-    { id: "contact", name: "#contact"},
+    { id: "contact", name: "#contact" },
   ];
-
-  const handleLinkClick = (e, id) => {
-    e.preventDefault();
-    const targetElement = document.getElementById(id);
-    targetElement.scrollIntoView({ behavior: "smooth", block: "start" });
-  };
 
   const [showNavbar, setShowNavbar] = useState(false);
 
@@ -31,14 +25,14 @@ function Navbar() {
           <img
             src="src/assets/icon.png"
             alt="logo"
-            className="h-20  md:h-16 animate-fade-right animate-ease-in"
+            className="h-20  md:h-16 wow animate__animated animate__fadeInLeft"
           />
         </a>
 
         <div className="md:hidden ">
           <button
             onClick={toggleNavbar}
-            className="text-black focus:outline-none"
+            className="text-black focus:outline-none wow animate__animated animate__fadeInRight"
           >
             <box-icon
               name={showNavbar ? "x" : "menu-alt-right"}
@@ -47,7 +41,7 @@ function Navbar() {
           </button>
         </div>
 
-        <div className="hidden md:flex items-center gap-10 animate-fade-up animate-ease-in">
+        <div className="hidden md:flex items-center gap-10 wow animate__animated animate__fadeInUp">
           {Tabs.map((tab) => (
             <a
               key={tab.id}

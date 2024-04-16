@@ -2,7 +2,6 @@ function Footer() {
   return (
     <>
       <footer className="container  sm:flex-row md:py-8">
-        <div className=" bg-gray-500 h-[1px] w-full mt-24"></div>
         <div className="flex items-center justify-between mt-9 ">
           <p className=" font-medium text-xs lg:text-sm">
             <a href="https://www.facebook.com/makrenzar1" target="_blank">
@@ -16,7 +15,7 @@ function Footer() {
               <span className="text-blue-500 ">•</span> Source Code{" "}
             </a>
           </p>
-          <p className="font-medium text-xs lg:text-sm">
+          <p className="font-medium text-xs lg:text-md">
             <a href="https://www.facebook.com/makrenzar1" target="_blank">
               <span className="text-blue-500 ">•</span>
               <span className="bg-blue-500 ">fb</span>
