@@ -24,22 +24,22 @@ function Projects() {
   ];
   return (
     <>
-      <section className="container mt-[3rem]  py-10 md:py-20">
+      <section className="container mt-[5rem]  py-10 md:py-20" id="projects">
         <div>
-          <p className="text-foreground scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl py-6 md:py-8">
+          <p className="  text-4xl font-extrabold tracking-tight lg:text-5xl py-6 md:py-8">
             Projects
           </p>
-          <div className="grid gap-4 md:gap-8">
+          <div className="grid gap-4 md:gap-8 ">
             {projects.map((project, index) => (
               <div
                 key={index}
-                className="rounded-lg border border-gray-500 bg-black  shadow-sm items-center justify-center"
+                className="rounded-lg border border-gray-500 bg-black  shadow-md items-center justify-center"
               >
                 <div className="flex flex-col space-y-1.5 p-6 pb-0">
                   <h3 className="text-2xl font-semibold leading-none tracking-tight">
                     {project.title}
                   </h3>
-                  <p className="text-sm  font-light text-muted-foreground py-2">
+                  <p className="text-sm  font-light  py-2">
                     {project.description}
                   </p>
                 </div>
@@ -53,11 +53,7 @@ function Projects() {
                     &nbsp;
                     {project.link}
                   </a>
-                  <div
-                    data-orientation="horizontal"
-                    role="none"
-                    className="shrink-0 bg-gray-500 h-[1px] w-full mt-2"
-                  ></div>
+                  <div className="bg-gray-500 h-[1px] w-full mt-2"></div>
                 </div>
                 <div className="flex items-center p-6 pt-0">
                   <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-sm">
@@ -72,11 +68,7 @@ function Projects() {
                           className="hover:scale-125 ease-in duration-300 cursor-pointer"
                         />
                         {techIndex < project.technologies.length - 1 && (
-                          <div
-                            data-orientation="vertical"
-                            role="none"
-                            className="bg-gray-500 h-full w-[1px] "
-                          ></div>
+                          <div className="bg-gray-500 h-full w-[1px] "></div>
                         )}
                       </div>
                     ))}

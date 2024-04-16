@@ -10,10 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "aos": "^3.0.0-beta.6",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/material": "^5.15.15",
     "boxicons": "^2.1.4",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "tailwindcss-animated": "^1.0.1",
+    "wow.js": "^1.2.2"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
