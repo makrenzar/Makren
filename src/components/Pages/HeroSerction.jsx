@@ -71,7 +71,8 @@ function HeroSection() {
         </p>
       </div>
       <div className=" items-center justify-center mt-52 grid grid-cols-4  lg:flex gap-8 lg:gap-24">
-        <span className="text-sm lg:text-sm  font-semibold   cursor-pointer hover:rotate-0 hover:scale-125 ease-in duration-200 rotate-[-3deg] underline-offset-4 bg-white text-black w-[3.5rem] animate-fade animate-delay-[2400ms] animate-ease-in">
+        <span className="text-sm lg:text-sm  font-semibold   cursor-pointer hover:rotate-0 hover:scale-125 ease-in duration-200 rotate-[-3deg] underline-offset-4 bg-white text-black w-[3.5rem] wow animate__animated animate__fadeIn"
+            data-wow-delay="3s">
           Skills
         </span>
         {SkillsIcon.map((icon) => (
