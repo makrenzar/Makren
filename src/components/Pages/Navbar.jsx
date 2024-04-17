@@ -21,7 +21,7 @@ function Navbar() {
   return (
     <>
       <nav className="container flex items-center justify-between py-4 ">
-        <a href="#">
+        <a href="/">
           <img
             src="src/assets/icon.png"
             alt="logo"
