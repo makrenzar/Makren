@@ -1,18 +1,17 @@
 function Footer() {
   return (
     <>
-      <footer className="container  sm:flex-row md:py-8">
-        <div className="flex items-center justify-between mt-9 ">
-          <p className=" font-medium text-xs lg:text-sm">Built by Makren</p>
+      <footer className="container   lg:pt-8">
+        <div className=" justify-between sm:flex mt-9    ">
+          <p className=" font-medium text-xs lg:text-sm py-1">Built by Makren</p>
 
-          <p className="font-medium text-xs lg:text-sm">
+          <p className="font-medium text-xs lg:text-sm py-1">
             {" "}
             I build things on the web.{" "}
           </p>
-          <p className="font-medium text-xs lg:text-sm">
-     
+          <p className="font-medium text-xs lg:text-sm py-1">
             <a href="https://github.com/makrenzar/Makren" target="_blank">
-         Source Code{" "}
+              Source Code{" "}
             </a>
           </p>
         </div>
