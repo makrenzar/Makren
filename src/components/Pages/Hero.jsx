@@ -1,6 +1,6 @@
 import { ClassNames } from "@emotion/react";
 
-function HeroSection() {
+function Hero() {
   const SkillsIcon = [
     {
       id: "html",
@@ -92,4 +92,4 @@ function HeroSection() {
   );
 }
 
-export default HeroSection;
+export default Hero;
