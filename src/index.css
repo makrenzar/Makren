@@ -11,8 +11,8 @@
 body {
   font-family: "Roboto Mono", monospace;
   color: white;
-  --dot-bg: black;
-  --dot-color: #030303b4;
+  --dot-bg: #23272A;
+  --dot-color: #747474;
   --dot-size: 1px;
   --dot-space: 22px;
   background: linear-gradient(90deg,

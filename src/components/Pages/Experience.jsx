@@ -13,16 +13,16 @@ function Experience() {
             Experience
           </p>
           <div>
-            <p className="text-sm font-semibold tracking-tight  lg:text-md py-2">
+            <p className="text-sm font-semibold tracking-tight  lg:text-md py-2 wow animate__animated animate__fadeIn"       data-wow-duration="3s">
               Angel's Burger
             </p>
-            <p className="text-sm font-semibold  tracking-tight lg:text-sm py-2">
+            <p className="text-sm font-semibold  tracking-tight lg:text-sm py-2 wow animate__animated animate__fadeIn"       data-wow-duration="3s">
               2024 - ????
             </p>
-            <p className="text-sm font-semibold tracking-tight  lg:text-sm py-2">
+            <p className="text-sm font-semibold tracking-tight  lg:text-sm py-2 wow animate__animated animate__fadeIn"       data-wow-duration="3s">
               Frontend Developer
             </p>
-            <p className="text-sm font-extralight  tracking-tight lg:text-sm  py-4">
+            <p className="text-sm font-light  tracking-tight lg:text-sm  py-4 wow animate__animated animate__fadeIn"       data-wow-duration="3s">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Voluptatem dolor soluta aspernatur mollitia corporis sint, ex
               ullam repudiandae cupiditate sapiente quis, nemo officiis cumque

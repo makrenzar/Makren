@@ -5,7 +5,7 @@ function Navbar() {
     { id: "home", name: "#home" },
     { id: "projects", name: "#projects" },
     { id: "experience", name: "#experience" },
-    { id: "contact", name: "#contact" },
+    { id: "reach", name: "#reach me out" },
   ];
 
   const [showNavbar, setShowNavbar] = useState(false);

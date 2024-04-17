@@ -26,14 +26,17 @@ function Projects() {
     <>
       <section className="container mt-[6rem]  py-10 md:py-20" id="projects">
         <div>
-          <p className="  text-4xl font-extrabold tracking-tight   lg:text-5xl py-6 md:py-8">
+          <p
+            className="  text-4xl font-extrabold tracking-tight   lg:text-5xl py-6 md:py-8 wow animate__animated animate__fadeIn"
+            data-wow-duration="3s"
+          >
             Projects
           </p>
           <div className="grid gap-4 md:gap-8 ">
             {projects.map((project, index) => (
               <div
                 key={index}
-                className="rounded-lg border border-gray-500 bg-black  shadow-md items-center justify-center wow animate__animated animate__fadeInUp"
+                className="rounded-lg border border-gray-500 bg-[#31363A] shadow-lg items-center justify-center wow animate__animated animate__fadeInUp"
                 data-wow-duration="2s"
               >
                 <div className="flex flex-col space-y-1.5 p-6 pb-0">
