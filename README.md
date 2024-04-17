@@ -20,7 +20,7 @@ To get started with the project, follow these steps:
 3. Install the dependencies: npm install
 4. Start the development server: npm run dev
 
-   This will start the development server, and you can access the application at `http://localhost:3000`.
+   This will start the development server, and you can access the application at `http://localhost:5173`.
 
 ## Features
 
