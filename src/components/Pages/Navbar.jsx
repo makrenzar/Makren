@@ -15,7 +15,7 @@ function Navbar() {
   };
 
   const openResume = () => {
-    window.open("src/assets/resume.pdf", "_blank");
+    window.open("./src/assets/resume.pdf", "_blank");
   };
 
   return (
@@ -23,7 +23,7 @@ function Navbar() {
       <nav className="container flex items-center justify-between py-4 ">
         <a href="/">
           <img
-            src="src/assets/icon.png"
+            src="./src/assets/icon.png"
             alt="logo"
             className="h-20  md:h-16 wow animate__animated animate__fadeInLeft"
           />
