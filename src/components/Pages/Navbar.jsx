@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import icon from '../../assets/icon.png'
+import resume from '../../assets/resume.pdf'
 
 function Navbar() {
   const Tabs = [
@@ -15,15 +17,16 @@ function Navbar() {
   };
 
   const openResume = () => {
-    window.open("./resume.pdf", "_blank");
+    window.open(resume);
   };
+  
 
   return (
     <>
       <nav className="container flex items-center justify-between py-4 ">
         <a href="/">
           <img
-            src="./icon.png"
+            src={icon}
             alt="logo"
             className="h-20  md:h-16 wow animate__animated animate__fadeInLeft"
           />
