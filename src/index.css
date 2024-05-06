@@ -11,15 +11,20 @@
 body {
   font-family: "Roboto Mono", monospace;
   color: white;
-  --dot-bg: #23272A;
+  --dot-bg: #23272a;
   --dot-color: #747474;
   --dot-size: 1px;
   --dot-space: 22px;
-  background: linear-gradient(90deg,
-      var(--dot-bg) calc(var(--dot-space) - var(--dot-size)),
-      transparent 1%) center / var(--dot-space) var(--dot-space),
-    linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)),
-      transparent 1%) center / var(--dot-space) var(--dot-space),
+  background: linear-gradient(
+        90deg,
+        var(--dot-bg) calc(var(--dot-space) - var(--dot-size)),
+        transparent 1%
+      )
+      center / var(--dot-space) var(--dot-space),
+    linear-gradient(
+        var(--dot-bg) calc(var(--dot-space) - var(--dot-size)),
+        transparent 1%
+      )
+      center / var(--dot-space) var(--dot-space),
     var(--dot-color);
-
 }

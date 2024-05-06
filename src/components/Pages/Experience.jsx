@@ -13,28 +13,36 @@ function Experience() {
             Experience
           </p>
           <div>
-            <p className="text-sm font-semibold tracking-tight  lg:text-md py-2 wow animate__animated animate__fadeIn"       data-wow-duration="3s">
-              Angel's Burger
+            <p
+              className="text-sm font-semibold tracking-tight  lg:text-md py-2 wow animate__animated animate__fadeIn"
+              data-wow-duration="3s"
+            >
+              Almana Group of Companies
             </p>
-            <p className="text-sm font-semibold  tracking-tight lg:text-sm py-2 wow animate__animated animate__fadeIn"       data-wow-duration="3s">
-              2024 - ????
+            <p
+              className="text-sm font-semibold  tracking-tight lg:text-sm py-2 wow animate__animated animate__fadeIn"
+              data-wow-duration="3s"
+            >
+              2024
             </p>
-            <p className="text-sm font-semibold tracking-tight  lg:text-sm py-2 wow animate__animated animate__fadeIn"       data-wow-duration="3s">
-              Frontend Developer
+            <p
+              className="text-sm font-semibold tracking-tight  lg:text-sm py-2 wow animate__animated animate__fadeIn"
+              data-wow-duration="3s"
+            >
+              Frontend Developer Intern
             </p>
-            <p className="text-sm font-light  tracking-tight lg:text-sm  py-4 wow animate__animated animate__fadeIn"       data-wow-duration="3s">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatem dolor soluta aspernatur mollitia corporis sint, ex
-              ullam repudiandae cupiditate sapiente quis, nemo officiis cumque
-              quas aut magnam rem maxime eum. Quos cum aspernatur enim ipsum
-              repellat neque officiis, harum dolore minus magni? Iste
-              praesentium suscipit dignissimos corporis labore esse quibusdam
-              inventore sed quod. Odit, at! Sit possimus incidunt nostrum
-              quaerat alias aliquam quasi in molestias atque omnis laborum optio
-              eaque corrupti numquam doloribus, quia sed earum iure suscipit.
-              Nemo eligendi molestias numquam reiciendis ipsa, atque alias
-              tenetur tempora aliquam illum possimus aperiam vel distinctio id
-              praesentium, excepturi perspiciatis eius. Minima!
+            <p
+              className="text-sm font-light  tracking-tight lg:text-sm  py-4 wow animate__animated animate__fadeIn"
+              data-wow-duration="3s"
+            >
+              During my internship at Almana Group of Companies, I worked as a
+              frontend developer, collaborating with the team to develop and
+              maintain web applications. I gained hands-on experience with
+              modern frontend technologies such as React, JavaScript, HTML,
+              Tailwind, Bootstrap, and CSS. Additionally, This internship
+              provided me with valuable insights into the software development
+              lifecycle and enhanced my skills in building user-friendly and
+              responsive interfaces.
             </p>
           </div>
         </div>
