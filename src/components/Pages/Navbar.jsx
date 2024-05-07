@@ -60,7 +60,7 @@ function Navbar() {
 
         <button
           onClick={openResume}
-          className="hidden md:block text-sm border border-white hover:bg-white hover:text-black rounded-md w-24 h-9 hover:scale-105 ease-in duration-200  wow animate__animated animate__fadeInRight"
+          className="hidden md:block text-sm border border-white hover:bg-white hover:text-black rounded-md w-24 h-9 hover:scale-105 ease-in duration-200 animate-fade-left animate-ease-in"
         >
           #resume
         </button>
@@ -69,7 +69,7 @@ function Navbar() {
       </nav>
 
       <div
-        className={`md:hidden absolute top-20 left-0 w-full   rounded-md z-10    ${
+        className={`md:hidden absolute top-20 left-0 w-full   rounded-md z-10  ${
           showNavbar ? "block" : "hidden"
 }`}
       >
@@ -89,7 +89,7 @@ function Navbar() {
               openResume();
               toggleNavbar();
             }}
-            className="text-sm w-24 h-9  wow animate__animated animate__fadeInRight"
+            className="text-sm w-24 h-9"
           >
             #resume
           </button>

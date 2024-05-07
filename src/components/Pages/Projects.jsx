@@ -31,7 +31,7 @@ function Projects() {
                   <h3 className="text-2xl font-semibold leading-none tracking-tight">
                     {project.title}
                   </h3>
-                  <p className="text-sm  font-light  py-2">
+                  <p className="text-sm font-light py-2">
                     {project.description}
                   </p>
                 </div>
