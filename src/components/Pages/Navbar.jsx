@@ -34,7 +34,7 @@ function Navbar() {
         <div className="md:hidden ">
           <button
             onClick={toggleNavbar}
-            className=" focus:outline-none  wow animate__animated animate__fadeInRight"
+            className=" focus:outline-none ease-in duration-200  wow animate__animated animate__fadeInRight"
           >
             <box-icon
               name={showNavbar ? "x" : "menu-alt-right"}
@@ -60,7 +60,7 @@ function Navbar() {
 
         <button
           onClick={openResume}
-          className="hidden md:block text-sm border border-white hover:bg-white hover:text-black rounded-md w-24 h-9 hover:scale-105 ease-in duration-200 animate-fade-left animate-ease-in"
+          className="hidden md:block text-sm border border-white hover:bg-white hover:text-black rounded-md w-24 h-9 hover:scale-105 ease-in duration-200  wow animate__animated animate__fadeInRight"
         >
           #resume
         </button>
@@ -89,7 +89,7 @@ function Navbar() {
               openResume();
               toggleNavbar();
             }}
-            className="text-sm w-24 h-9"
+            className="text-sm w-24 h-9 "
           >
             #resume
           </button>
