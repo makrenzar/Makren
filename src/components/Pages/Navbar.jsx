@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import icon from "../../assets/icon.png";
-import resume from "../../assets/resume.pdf";
+import resume from "../../assets/MARKLAWRENCEZARAGOZARESUME.pdf";
 
 function Navbar() {
   const Tabs = [
