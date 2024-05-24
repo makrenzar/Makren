@@ -3,12 +3,10 @@ function Projects() {
     {
       title: "Social Hub Agency",
       description:
-        "Landing page for Social Hub Agency, igniting brands' online presence with creativity and precision.",
+        "The project entails the development of a captivating landing page for Social Hub Agency, a leadingentity in amplifying online presence through its range of specialized services. The landing page serves as the digital gatewayfor potential clients, offering a glimpse into the agency's expertise and commitment to enhancing brands in the digital sphere",
       link: "https://socialhubagency.vercel.app/",
       technologies: ["react", "tailwind", "css"],
     },
-
-    
   ];
   return (
     <>
@@ -76,5 +74,3 @@ function Projects() {
 }
 
 export default Projects;
-
-
