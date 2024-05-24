@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import icon from "../../assets/icon.png";
-import resume from "../../assets/MARKLAWRENCEZARAGOZARESUME.pdf";
+import resume from "../../assets/MARK_LAWRENCE_ZARAGOZA_RESUME.pdf";
 
 function Navbar() {
   const Tabs = [
@@ -39,22 +39,19 @@ function Navbar() {
             <box-icon
               name={showNavbar ? "x" : "menu-alt-right"}
               color="#ffffff"
-           
             ></box-icon>
           </button>
         </div>
 
         <div className="hidden md:flex items-center gap-10 wow animate__animated animate__fadeInUp">
           {Tabs.map((tab) => (
-           
-              <a
-                key={tab.id}
-                href={`#${tab.id}`}
-                className="text-sm hover:scale-125 ease-in duration-200"
-              >
-                {tab.name}
-              </a>
-       
+            <a
+              key={tab.id}
+              href={`#${tab.id}`}
+              className="text-sm hover:scale-125 ease-in duration-200"
+            >
+              {tab.name}
+            </a>
           ))}
         </div>
 
@@ -64,14 +61,11 @@ function Navbar() {
         >
           #resume
         </button>
-
-        
       </nav>
-
       <div
         className={`md:hidden absolute top-20 left-0 w-full   rounded-md z-10  ${
           showNavbar ? "block" : "hidden"
-}`}
+        }`}
       >
         <div className="flex flex-col items-center py-4 gap-4 bg-[#272b2e] shadow-2xl rounded-lg top-0">
           {Tabs.map((tab) => (
@@ -93,11 +87,8 @@ function Navbar() {
           >
             #resume
           </button>
-          
         </div>
       </div>
-
-      
     </>
   );
 }
