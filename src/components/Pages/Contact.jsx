@@ -12,12 +12,12 @@ function Contact() {
           >
             Get in touch
           </p>
-          <p className="text-sm font-medium  tracking-tight lg:text-sm wow animate__animated animate__fadeIn"
+          <p className="text-sm font-normal  tracking-tight lg:text-base wow animate__animated animate__fadeIn"
             data-wow-duration="3s">
             My virtual door is always open, so feel free to reach out whenever
             you like. I will do my best to respond as soon as I can.
           </p>
-          <p className="text-sm font-medium  tracking-tight lg:text-sm py-10 flex items-start justify-start gap-4  wow animate__animated animate__fadeIn"
+          <p className="text-sm font-normal  tracking-tight lg:text-base py-10 flex items-start justify-start gap-4  wow animate__animated animate__fadeIn"
             data-wow-duration="3s">
             Links <span className="text-orange-500 text-center">•</span>{" "}
             <a

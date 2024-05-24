@@ -4,7 +4,6 @@ import resume from "../../assets/MARK_LAWRENCE_ZARAGOZA_RESUME.pdf";
 
 function Navbar() {
   const Tabs = [
-    { id: "home", name: "#home" },
     { id: "projects", name: "#projects" },
     { id: "experience", name: "#experience" },
     { id: "reach", name: "#reach me out" },
@@ -38,7 +37,7 @@ function Navbar() {
           >
             <box-icon
               name={showNavbar ? "x" : "menu-alt-right"}
-              color="#ffffff"
+              color="#3E3E3E"
             ></box-icon>
           </button>
         </div>
@@ -48,7 +47,7 @@ function Navbar() {
             <a
               key={tab.id}
               href={`#${tab.id}`}
-              className="text-sm hover:scale-125 ease-in duration-200"
+              className="text-md font-bold hover:scale-125 ease-in duration-200"
             >
               {tab.name}
             </a>
@@ -57,7 +56,7 @@ function Navbar() {
 
         <button
           onClick={openResume}
-          className="hidden md:block text-sm border border-white hover:bg-white hover:text-black rounded-md w-24 h-9 hover:scale-105 ease-in duration-200  wow animate__animated animate__fadeInRight"
+          className="hidden md:block text-md font-bold border-2 border-[#3E3E3E] bg-[#DFDFDF] hover:bg-[#3E3E3E] hover:text-[#DFDFDF] rounded-md w-24 h-9 hover:scale-105 ease-in duration-200  wow animate__animated animate__fadeInRight"
         >
           #resume
         </button>
@@ -67,12 +66,12 @@ function Navbar() {
           showNavbar ? "block" : "hidden"
         }`}
       >
-        <div className="flex flex-col items-center py-4 gap-4 bg-[#272b2e] shadow-2xl rounded-lg top-0">
+        <div className="flex flex-col items-center py-4 gap-4 bg-[#DFDFDF] shadow-2xl rounded-lg top-0">
           {Tabs.map((tab) => (
             <a
               key={tab.id}
               href={`#${tab.id}`}
-              className="text-sm"
+              className="text-sm font-bold"
               onClick={toggleNavbar}
             >
               {tab.name}
@@ -83,7 +82,7 @@ function Navbar() {
               openResume();
               toggleNavbar();
             }}
-            className="text-sm w-24 h-9 "
+            className="text-sm font-bold w-24 h-9  "
           >
             #resume
           </button>

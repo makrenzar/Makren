@@ -14,25 +14,25 @@ function Experience() {
           </p>
           <div>
             <p
-              className="text-sm font-semibold tracking-tight  lg:text-md py-2 wow animate__animated animate__fadeIn"
+              className="text-sm font-semibold tracking-tight  lg:text-base py-2 wow animate__animated animate__fadeIn"
               data-wow-duration="3s"
             >
               Almana Group of Companies
             </p>
             <p
-              className="text-sm font-semibold  tracking-tight lg:text-sm py-2 wow animate__animated animate__fadeIn"
+              className="text-sm font-semibold  tracking-tight lg:text-base py-2 wow animate__animated animate__fadeIn"
               data-wow-duration="3s"
             >
               2024
             </p>
             <p
-              className="text-sm font-semibold tracking-tight  lg:text-sm py-2 wow animate__animated animate__fadeIn"
+              className="text-sm font-semibold tracking-tight  lg:text-base py-2 wow animate__animated animate__fadeIn"
               data-wow-duration="3s"
             >
               Frontend Developer Intern
             </p>
             <p
-              className="text-sm font-light  tracking-tight lg:text-sm  py-4 wow animate__animated animate__fadeIn"
+              className="text-sm font-normal  lg:text-base  py-4 wow animate__animated animate__fadeIn"
               data-wow-duration="3s"
             >
               During my internship at Almana Group of Companies, I worked as a

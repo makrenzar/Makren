@@ -59,19 +59,19 @@ function Hero() {
         className="mt-20 lg:mt-60 grid grid-flow-cols justify-center items-center gap-y-4 wow animate__animated animate__fadeIn"
         data-wow-duration="3s"
       >
-        <p className="text-foreground scroll-m-20 text-4xl font-bold tracking-tight lg:text-5xl py-6">
+        <p className="text-foreground scroll-m-20 text-4xl font-bold tracking-tight lg:text-6xl py-6">
           Mark Lawrence Zaragoza
         </p>
-        <p className="text-foreground scroll-m-20 text-2xl font-normal tracking-tight bg-white text-black w-64 cursor-pointer hover:rotate-0 hover:scale-105 ease-in duration-200 rotate-[-3deg] underline underline-offset-4">
+        <p className="text-foreground scroll-m-20 text-2xl font-normal tracking-tight bg-[#3E3E3E] text-[#DFDFDF] w-52 cursor-pointer hover:rotate-0 hover:scale-105 ease-in duration-200 rotate-[-3deg] underline underline-offset-4">
           Frontend Developer
         </p>
-        <p className="text-foreground font-thin mt-6">
+        <p className="text-foreground text-sm lg:text-lg font-normal mt-6">
           Specializing in frontend development and eager to apply my skills in
           startups to create engaging websites
         </p>
       </div>
       <div className=" items-center justify-center mt-52 grid grid-cols-4  lg:flex gap-8 lg:gap-24">
-        <span className="text-sm lg:text-sm  font-semibold   cursor-pointer hover:rotate-0 hover:scale-125 ease-in duration-200 rotate-[-3deg] underline-offset-4 bg-white text-black w-[3.5rem] wow animate__animated animate__fadeIn"
+        <span className="text-sm lg:text-md  font-semibold   cursor-pointer hover:rotate-0 hover:scale-125 ease-in duration-200 rotate-[-3deg] underline-offset-4 bg-[#3E3E3E] text-[#DFDFDF] w-[2.5rem] wow animate__animated animate__fadeIn"
             data-wow-delay="3s">
           Skills
         </span>
