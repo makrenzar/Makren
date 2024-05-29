@@ -17,7 +17,7 @@ function Experience() {
               className="text-sm font-semibold tracking-tight  lg:text-base py-2 wow animate__animated animate__fadeIn"
               data-wow-duration="3s"
             >
-              Almana Group of Companies
+              Blaqbox Technology Corporation
             </p>
             <p
               className="text-sm font-semibold  tracking-tight lg:text-base py-2 wow animate__animated animate__fadeIn"
@@ -35,7 +35,7 @@ function Experience() {
               className="text-sm font-normal  lg:text-base  py-4 wow animate__animated animate__fadeIn"
               data-wow-duration="3s"
             >
-              During my internship at Almana Group of Companies, I worked as a
+              During my internship at Blaqbox Technology Corporations, I worked as a
               frontend developer, collaborating with the team to develop and
               maintain web applications. I gained hands-on experience with
               modern frontend technologies such as React, JavaScript, HTML,
