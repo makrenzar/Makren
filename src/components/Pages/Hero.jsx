@@ -66,8 +66,7 @@ function Hero() {
           Frontend Developer
         </p>
         <p className="text-foreground text-sm lg:text-lg font-normal mt-6">
-          Specializing in frontend development and eager to apply my skills in
-          startups to create engaging websites
+         Specializing in front-end development and eager to apply my skills to create engaging and innovative websites.
         </p>
       </div>
       <div className=" items-center justify-center mt-52 grid grid-cols-4  lg:flex gap-8 lg:gap-24">
