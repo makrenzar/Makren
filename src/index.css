@@ -46,6 +46,10 @@ body {
 }
 
 
+.shadow-top {
+  box-shadow: 0 -10px 20px rgba(136, 136, 136, 0.2);
+}
+
 .scroll-up {
   animation: fade_move_down 3s cubic-bezier(0.19, 1, 0.22, 1) infinite;
 }
