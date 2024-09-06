@@ -37,7 +37,7 @@ function Projects() {
                 <div className="p-6 pt-0">
                   <span className="text-sm lg:text-base font-normal">Link:</span>
                   <a
-                    className="inline-flex items-center justify-center rounded-md text-sm  lg:text-base font-normal  hover:scale-105 ease-in duration-300 h-10 p-0"
+                    className="inline-flex items-center justify-center rounded-md text-sm lg:text-base font-normal  hover:scale-105 ease-in duration-300 h-10 p-0"
                     href={project.link}
                     target="_blank"
                   >
